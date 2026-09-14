@@ -1,0 +1,13 @@
+flask
+gunicorn
+scikit-learn
+xgboost
+joblib
+pandas
+numpy
+geopy
+mlflow
+mapie
+lime
+matplotlib
+pytest

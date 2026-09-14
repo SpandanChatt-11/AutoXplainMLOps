@@ -1,0 +1,13 @@
+tests/
+data/raw/
+data/processed/
+.git/
+.github/
+__pycache__/
+*.pyc
+.pytest_cache/
+cars/
+venv/
+notebooks/
+*.ipynb
+.ipynb_checkpoints/

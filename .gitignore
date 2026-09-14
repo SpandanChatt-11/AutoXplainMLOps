@@ -1,0 +1,19 @@
+cars/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+.DS_Store
+
+# NOTE: models/, mlflow.db, and mlruns/ are deliberately NOT ignored.
+# CI (pytest + docker build) needs the trained artifacts to be present in the
+# repo to run real end-to-end tests without a live external model store. This
+# is a portfolio-scale simplification - a production setup would use a proper
+# artifact store (S3, an MLflow tracking server, DVC) instead of committing
+# model binaries to git.
+
+# Raw/processed data can be large - keep out of git, regenerate via the pipeline
+data/raw/*.csv
+data/processed/*.csv

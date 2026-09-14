@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/SPANDAN CHATTERJEE/Desktop/autoxplain/mlruns/1/models/m-300fc0ca6ad54b919b5f0c2d67149bf7/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.11.9
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.2.0
+mlflow_version: 3.16.0
+model_id: m-300fc0ca6ad54b919b5f0c2d67149bf7
+model_size_bytes: 339161
+model_uuid: m-300fc0ca6ad54b919b5f0c2d67149bf7
+prompts: null
+run_id: 1f1a75e2ecb74bb4a61a950ed69523d5
+utc_time_created: '2026-09-13 14:57:44.870586'
